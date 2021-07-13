@@ -95,7 +95,11 @@
             margin: 0;
         }
 
-        .nav-container .container-right .btn-signup {
+        .btn-signup {
+            padding: 11px 13px;
+        }
+
+        .btn {
             border: none;
             background-color: #ea4c89;
             color: white;
@@ -103,11 +107,9 @@
             font-size: 15px;
             border-radius: 8px;
             font-weight: bold;
-
-
         }
 
-        .nav-container .container-right .btn-signup:hover {
+        .btn-signup:hover {
             background-color: pink;
         }
 
@@ -121,9 +123,40 @@
             cursor: pointer;
         }
 
-
+        /* #f9f8fd */
         .discover-body {
-            height: 200vh;
+            height: 73vh;
+            background-color: #f9f8fd;
+            display: flex;
+            align-items: center;
+        }
+
+        .discover-body h2 {
+            margin-top: 0;
+            font-size: 48px;
+        }
+
+        .discover-body .left-para {
+            display: flex;
+            flex-direction: column;
+            margin: 15px 60px;
+        }
+
+        .btn-size {
+            width: 82px;
+        }
+
+        .discover-body .left-para p {
+            width: 575px;
+            margin-top: 0;
+        }
+
+        .discover-body .img .art {
+            color: #b7bace;
+        }
+
+        .discover-body .img .roman {
+            text-align: center;
         }
     </style>
 </head>
@@ -151,8 +184,8 @@
                     Sign in
                 </button>
             </li>
-            <li class="lisign-up">
-                <button class="btn-signup btn-curs">
+            <li class="lisign-up ">
+                <button class="btn-signup btn-curs btn">
                     Sign up
                 </button>
             </li>
@@ -161,15 +194,25 @@
     </div>
 
     <div class="discover-body">
+
+
         <div class="left-para">
             <h2>Discover the world's top designers & creatives</h2>
             <p>Dribble is the leading destination to find & showcase creative work and home to the world's best design
                 professionals.</p>
+            <button class="btn btn-curs btn-signup btn-size">
+                Sign up
+            </button>
         </div>
+
+
         <div class="img">
             <img
-                src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp">
+                src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp"><br>
+            <span class="art">Art by <a class="art roman" href="#">Romanian Briaux</a></span>
         </div>
+
+
     </div>
 </body>
 
