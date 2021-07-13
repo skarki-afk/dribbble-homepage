@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <title>
+        dribbble-Discover
+    </title>
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Helvetica;
+        }
+
+        .nav-container {
+
+            display: flex;
+
+            box-sizing: border-box;
+            justify-content: space-between;
+            border-bottom: 1px solid #f3f3f4;
+
+
+        }
+
+        /* left */
+        .nav-container .container-left {
+            display: flex;
+            padding-left: 25px;
+
+        }
+
+        .nav-container .container-left li {
+            font-size: 14px;
+            color: #6e6d7a;
+            margin-right: 38px;
+            font-weight: 500;
+            cursor: pointer;
+
+        }
+
+
+
+        .nav-container .container-left .dribble {
+            font-family: 'Pacifico', cursive;
+            font-size: 22px !important;
+            color: black !important;
+
+        }
+
+        .nav-container .container-left .nav-middle-section {
+            align-self: center;
+        }
+
+        .nav-container .container-left .nav-middle-section:hover {
+            color: #e28b9b;
+        }
+
+
+        /* right */
+        .nav-container .container-right {
+            display: flex;
+            padding-right: 25px;
+            position: relative;
+            top: 5px;
+
+        }
+
+        .nav-container .container-right li {
+            margin: 10px;
+
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        .nav-container .container-right .btn-signin {
+            border: none;
+            background-color: transparent;
+            color: #6e6d7a;
+            font-size: 16px;
+            font-weight: 500;
+            margin-right: 5px;
+
+        }
+
+        .nav-container .container-right .lisign-up {
+            margin: 0;
+        }
+
+        .nav-container .container-right .btn-signup {
+            border: none;
+            background-color: #ea4c89;
+            color: white;
+            padding: 11px 13px;
+            font-size: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+
+
+        }
+
+        .nav-container .container-right .btn-signup:hover {
+            background-color: pink;
+        }
+
+        .nav-container .container-right .material-icons {
+            cursor: pointer;
+            margin-right: -7px;
+            margin-top: 1px;
+        }
+
+        .btn-curs {
+            cursor: pointer;
+        }
+
+
+        .other-body {
+            height: 200vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+
+        <ul class="container-left">
+            <li class="dribble">dribble</li>
+            <li class="nav-middle-section">Inspiration</li>
+            <li class="nav-middle-section"> Find Work</li>
+            <li class="nav-middle-section">Learn Design</li>
+            <li class="nav-middle-section">Go Pro</li>
+            <li class="nav-middle-section">Hire Designers</li>
+        </ul>
+
+
+
+        <ul class="container-right">
+            <li>
+                <i class="material-icons">search</i>
+            </li>
+            <li>
+                <button class="btn-signin btn-curs">
+                    Sign in
+                </button>
+            </li>
+            <li class="lisign-up">
+                <button class="btn-signup btn-curs">
+                    Sign up
+                </button>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="other-body">
+
+    </div>
+</body>
+
+</html>
