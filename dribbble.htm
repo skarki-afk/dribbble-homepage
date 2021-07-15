@@ -196,7 +196,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-
+            /* background-color: skyblue; */
             margin: 0 20px;
             color: rgba(128, 128, 128, 0.747);
             position: relative;
@@ -250,6 +250,42 @@
             position: relative;
             right: 16px;
             cursor: pointer;
+        }
+
+        /* images */
+
+        .images-gif {
+            display: flex;
+            justify-content: space-around;
+            margin: 0px 50px;
+
+        }
+
+        .img-bor {
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .images-gif-2 {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 50px;
+        }
+
+        .images-gif-3 {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 50px;
+        }
+
+        .images-gif-4 {
+            display: grid;
+            margin: 0px 70px;
+            margin-bottom: 50px;
+            grid-template-columns: 275px 275px;
+            grid-template-rows: auto;
+            grid-gap: 35px;
+
         }
     </style>
 </head>
@@ -337,6 +373,62 @@
 
     </div>
 
+    <div class="images-gif">
+        <img class="img-bor"
+            src="https://cdn.dribbble.com/users/418188/screenshots/16012464/media/a6b74b3c91dcf21cca14bdb3ea18d2e6.png?compress=1&resize=1200x900"
+            width="275px">
+
+        <img class="img-bor"
+            src="https://cdn.dribbble.com/users/4684322/screenshots/16045833/media/6bd0e6c9529275de5b9051e127506803.jpg?compress=1&resize=1200x900"
+            width="275px">
+
+        <video
+            src="https://cdn.dribbble.com/users/427857/screenshots/16046801/media/847a21fa4d14d35189b2f6fceb8eb6a3.mp4"
+            class="img-bor" width="275px" loop autoplay controls></video>
+        <img src="https://cdn.dribbble.com/users/2443050/screenshots/16045816/media/c41c4dd5de576115677dd28b1edcfb49.png?compress=1&resize=1200x900"
+            class="img-bor" width="275px">
+    </div>
+
+    <div class="images-gif-2">
+        <video src="https://cdn.dribbble.com/users/174531/videos/128323/gstkg_xlarge_preview.mp4" class="img-bor"
+            width="275px" loop autoplay controls></video>
+        <img src="https://cdn.dribbble.com/users/7202957/screenshots/16046534/media/bd7e78a1a22efcd3cae4d205e2409723.jpg?compress=1&resize=1200x900"
+            class="img-bor" width="275px">
+        <img src="https://cdn.dribbble.com/users/3549879/screenshots/16045308/media/83f16667daed937bfafc377f2b52c442.png?compress=1&resize=1200x900"
+            width="275px" class="img-bor">
+        <img src="https://cdn.dribbble.com/users/3550736/screenshots/16045435/media/3c7fca3b02abf2d90749d2a089b759d4.jpg?compress=1&resize=1200x900"
+            width="275px" class="img-bor">
+    </div>
+
+    <div class="images-gif-3">
+        <video
+            src="https://cdn.dribbble.com/users/379146/screenshots/16046750/media/1a98e2929b79e0f8ac965550b4a80ae5.mp4"
+            autoplay controls loop width="275px" class="img-bor"></video>
+        <video
+            src="https://cdn.dribbble.com/users/2279605/screenshots/16048513/media/b81725eed6ee7e226a80d3b84b6a3165.mp4"
+            autoplay controls loop width="275px" class="img-bor"></video>
+        <img src="https://cdn.dribbble.com/users/4591142/screenshots/15909331/media/e2fde1e865862fc15784fee454edf01a.jpg?compress=1&resize=1200x900"
+            width="275px" class="img-bor">
+        <img src="https://cdn.dribbble.com/users/6462782/screenshots/16046309/media/314070547f89464acfd2fd7281f28b3c.png?compress=1&resize=1200x900"
+            width="275px" class="img-bor"></video>
+    </div>
+
+    <div class="images-gif-4">
+        <video
+            src="https://cdn.dribbble.com/users/1200166/screenshots/16048370/media/7af1e9bb58ba921f62c3269658b5aa06.mp4"
+            autoplay controls loop width="275px" class="img-bor"></video>
+        <img src="https://cdn.dribbble.com/users/3991100/screenshots/16041921/media/02b00dea315bf04c43def80fb936b54f.png?compress=1&resize=1200x900"
+            width="275px" class="img-bor">
+    </div>
+
+    <div class="sign-up-continue">
+        <button>
+            Sign up to continue
+        </button>
+        <button>
+            or sign in
+        </button>
+    </div>
 </body>
 
 </html>
