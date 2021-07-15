@@ -140,6 +140,21 @@
             display: flex;
             flex-direction: column;
             margin: 15px 60px;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+
+        .discover-body .left-para p {
+            width: 575px;
+            margin-top: 0;
+            position: relative;
+            top: -25px;
+        }
+
+        .discover-body .left-para .btn-pos {
+            position: relative;
+            top: -25px;
         }
 
         .btn-size {
@@ -149,27 +164,52 @@
         .discover-body .img {
             position: relative;
             left: -75px;
+            top: 6px;
         }
 
-        .discover-body .left-para p {
-            width: 575px;
-            margin-top: 0;
-        }
+
 
         .discover-body .img .art {
             color: #b7bace;
-            font-size: 12px;
+            font-size: 15px;
+            position: relative;
+            top: 3px;
+            left: 30px;
 
         }
 
+        .discover-body .img .art .roman {
+            position: relative;
+            left: -1px;
+            top: -1px;
+        }
 
         .discover-body .img div {
             text-align: end;
             margin: 20px;
         }
 
-        .other-body1 {
+
+        /* navigation bottom */
+        .nav-bottom {
             height: 25vh;
+            display: flex;
+
+        }
+
+        .nav-bottom .select {
+            display: flex;
+            height: 45px;
+            width: 155px;
+            flex-wrap: nowrap;
+        }
+
+        .nav-bottom .bottom-list {
+            display: flex;
+        }
+
+        .nav-bottom .filters {
+            display: flex;
         }
     </style>
 </head>
@@ -213,26 +253,51 @@
             <h2>Discover the world's top designers & creatives</h2>
             <p>Dribble is the leading destination to find & showcase creative work and home to the world's best design
                 professionals.</p>
-            <button class="btn btn-curs btn-signup btn-size">
+            <button class="btn btn-curs btn-signup btn-size btn-pos">
                 Sign up
             </button>
         </div>
 
 
         <div class="img">
-            <img
-                src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp"><br>
+            <img src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp"
+                width="500px"><br>
             <div class="art">
-                Art by <a class="art roman" href="#">Romanian Briaux</a></div>
+                Art by <a class="art roman" href="#">Romain Briaux</a></div>
         </div>
 
 
     </div>
-    <<<<<<< HEAD <div class="other-body1">
 
-        </div>
-        =======
-        >>>>>>> parent of 17fccdf (discover body finishes)
+
+    <div class="nav-bottom">
+        <select class="select">
+            <option value="Popular">Popular</option>
+            <option value="New & Noteworthy">New % Noteworthy</option>
+            <option value="Goods for Sale">Goods for Sale</option>
+        </select>
+
+
+        <ul class="bottom-list">
+            <li>All</li>
+            <li>Animation</li>
+            <li>Branding</li>
+            <li>Illustration</li>
+            <li>Mobile</li>
+            <li>Print</li>
+            <li>Product Design</li>
+            <li>Typography</li>
+            <li>Web Design</li>
+        </ul>
+
+
+        <ul class="filters">
+            <li>Filters</li>
+            <li>khai</li>
+        </ul>
+
+    </div>
+
 </body>
 
 </html>
