@@ -163,7 +163,7 @@
 
         .discover-body .img {
             position: relative;
-            left: -75px;
+            left: -85px;
             top: 6px;
         }
 
@@ -192,24 +192,64 @@
 
         /* navigation bottom */
         .nav-bottom {
-            height: 25vh;
+            height: 15vh;
             display: flex;
+            justify-content: space-around;
+            align-items: center;
 
+            margin: 0 20px;
+            color: rgba(128, 128, 128, 0.747);
+            position: relative;
+            top: 3px;
+            left: 5px;
+            cursor: pointer;
         }
 
         .nav-bottom .select {
             display: flex;
-            height: 45px;
-            width: 155px;
+            height: 40px;
+            width: 110px;
             flex-wrap: nowrap;
+            border: 1px solid rgba(128, 128, 128, 0.747);
+            border-radius: 8px;
+            cursor: pointer;
+            position: relative;
+            left: 4px;
         }
 
         .nav-bottom .bottom-list {
             display: flex;
+            position: relative;
+            right: 22px;
+
+
+        }
+
+        .nav-bottom .bottom-list button {
+            border: none;
+            background-color: white;
+            margin-right: 18px;
+            font-size: 15px;
+        }
+
+        .nav-bottom .bottom-list button:focus {
+            /* border: 1px solid rgba(128, 128, 128, 0.747); */
+            background-color: #e0dfe2;
+            padding: 11px 13px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-weight: bold;
         }
 
         .nav-bottom .filters {
             display: flex;
+            border: 1px solid rgba(128, 128, 128, 0.747);
+            background-color: white;
+            padding: 9px 25px;
+            border-radius: 6px;
+            position: relative;
+            right: 16px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -261,7 +301,7 @@
 
         <div class="img">
             <img src="https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp"
-                width="500px"><br>
+                width="490px"><br>
             <div class="art">
                 Art by <a class="art roman" href="#">Romain Briaux</a></div>
         </div>
@@ -279,22 +319,21 @@
 
 
         <ul class="bottom-list">
-            <li>All</li>
-            <li>Animation</li>
-            <li>Branding</li>
-            <li>Illustration</li>
-            <li>Mobile</li>
-            <li>Print</li>
-            <li>Product Design</li>
-            <li>Typography</li>
-            <li>Web Design</li>
+            <button>All</button>
+            <button>Animation</button>
+            <button>Branding</button>
+            <button>Illustration</button>
+            <button>Mobile</button>
+            <button>Print</button>
+            <button>Product Design</button>
+            <button>Typography</button>
+            <button>Web Design</button>
         </ul>
 
 
-        <ul class="filters">
-            <li>Filters</li>
-            <li>khai</li>
-        </ul>
+        <button class="filters">
+            <option>Filters</option>
+        </button>
 
     </div>
 
