@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        dribbble-Discover
+        Dribbble-Discover the World's Top Designers & Creative Professionals
     </title>
     <!-- icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- top align icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <style>
         body {
@@ -44,10 +47,12 @@
 
         }
 
-
-
-        .nav-container .container-left .dribble {
+        .dribbble {
             font-family: 'Pacifico', cursive;
+
+        }
+
+        .nav-container .container-left .dribbble {
             font-size: 22px !important;
             color: black !important;
 
@@ -287,6 +292,144 @@
             grid-gap: 35px;
 
         }
+
+        .sign-up-continue {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .sign-up-continue .btn-out {
+            border: none;
+            border-radius: 8px;
+        }
+
+        .sign-up-continue .btn-sign {
+            font-size: 16px;
+            margin-right: 25px;
+            background-color: #ea4c89;
+            padding: 12px 50px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .sign-up-continue .btn-sign:hover {
+            background-color: #ea4c89b3;
+        }
+
+        .sign-up-continue .btn-signin {
+            background-color: white;
+            color: #ea4c89;
+            margin-left: 35px;
+            font-size: 15px;
+        }
+
+        .sign-up-continue .btn-signin:hover {
+            color: pink;
+        }
+
+
+
+        /* last line */
+
+        .last-line {
+            height: 70vh;
+            display: flex;
+            justify-content: space-evenly;
+
+            background-color: #f9f8fd;
+
+
+        }
+
+
+        .last-line .line {
+            display: flex;
+            flex-direction: column;
+            /* margin: 25px 0; */
+            font-size: 14px;
+            position: relative;
+            top: 50px;
+            right: 25px;
+
+        }
+
+        .last-line .first-line .dribbble {
+            font-size: 28px !important;
+            color: #ea4c89;
+            position: relative;
+            top: -4px;
+            cursor: pointer;
+        }
+
+        .last-line .first-line li {
+            margin-bottom: 7px;
+            color: gray;
+
+        }
+
+        .last-line .second-line li {
+            margin-bottom: 22px;
+            color: gray;
+        }
+
+        .last-line .third-line li {
+            margin-bottom: 18px;
+            color: gray;
+        }
+
+        .last-line .fourth-line li {
+            margin-bottom: 18px;
+            color: gray;
+        }
+
+        .last-line .last-lines li {
+            margin-bottom: 18px;
+            color: gray;
+        }
+
+        .black {
+            color: black !important;
+            font-weight: 600;
+
+        }
+
+        .last-line #s-pos {
+            position: relative;
+            right: 50px;
+            top: 55px;
+        }
+
+        .last-line #t-pos {
+            position: relative;
+            right: 80px;
+            top: 55px;
+        }
+
+        .last-line #f-pos {
+            position: relative;
+            right: 120px;
+            top: 55px;
+        }
+
+        .last-line #l-pos {
+            position: relative;
+            right: 140px;
+            top: 55px;
+        }
+
+        .last-line .cursor {
+            cursor: pointer;
+        }
+
+        .last-line .cursor:hover {
+            color: black;
+        }
+
+        hr {
+            margin: 0;
+        }
     </style>
 </head>
 
@@ -294,7 +437,7 @@
     <div class="nav-container">
 
         <ul class="container-left">
-            <li class="dribble">dribble</li>
+            <li class="dribbble">dribbble</li>
             <li class="nav-middle-section">Inspiration</li>
             <li class="nav-middle-section"> Find Work</li>
             <li class="nav-middle-section">Learn Design</li>
@@ -422,13 +565,82 @@
     </div>
 
     <div class="sign-up-continue">
-        <button>
+        <button class="btn-curs btn-out btn-sign">
             Sign up to continue
         </button>
-        <button>
+        <button class="btn-curs btn-out btn-signin">
             or sign in
         </button>
+
     </div>
+
+    <div class="last-line line">
+        <ul class="first-line line">
+            <li class="dribbble"> dribbble </li>
+            <!-- <li>
+                <pre>Dribble is the world's leading
+community for creatives to share, grow,
+and get hired</pre>
+            </li> -->
+            <li>
+                Dribble is the world's leading
+            </li>
+            <li>
+                community for creatives to share, grow,
+            </li>
+            <li>
+                and get hired
+            </li><br><br>
+            <li>
+                <i class="material-icons">search</i>
+            </li>
+        </ul>
+
+        <ul class="second-line line" id="s-pos">
+            <li class="black">For designers</li>
+            <li class="cursor">Go Pro!</li>
+            <li class="cursor">Explore design work</li>
+            <li class="cursor">Design blog</li>
+            <li class="cursor">Overtime podcast</li>
+            <li class="cursor">Dribbble meetups</li>
+            <li class="cursor">Playoffs</li>
+            <li class="cursor">Weekly Warm-Up</li>
+            <li class="cursor">Code of conduct</li>
+        </ul>
+
+        <ul class="third-line line" id="t-pos">
+            <li class="black">Hire Desingners</li>
+            <li class="cursor">Post a job opening</li>
+            <li class="cursor">Post a freelance project</li>
+            <li class="cursor">Search for Designers</li><br>
+            <li class="black">Brands</li>
+            <li class="cursor">Advertise with us</li>
+        </ul>
+
+        <ul class="fourth-line line" id="f-pos">
+            <li class="black">Company</li>
+            <li class="cursor">About</li>
+            <li class="cursor">Careers</li>
+            <li class="cursor">Support</li>
+            <li class="cursor">Media Kit</li>
+            <li class="cursor">Testimonials</li>
+            <li class="cursor">API</li>
+            <li class="cursor">Terms of service</li>
+            <li class="cursor">Privacy policy</li>
+        </ul>
+
+        <ul class="last-lines line" id="l-pos">
+            <li class="black">Directories</li>
+            <li class="cursor">Design jobs</li>
+            <li class="cursor">Designers for hire</li>
+            <li class="cursor">Freelance designers for hire</li>
+            <li class="cursor">Tags</li>
+            <li class="cursor">Places</li> <br>
+            <li class="black">Design assests</li>
+            <li class="cursor">Shop Creative Market</li>
+        </ul>
+    </div>
+    <hr>
 </body>
 
 </html>
